@@ -12,4 +12,4 @@ DAY6-https://beardycancode.github.io/60-Days-of-Design/Day6/sidenav.html
 
 DAY7-https://beardycancode.github.io/60-Days-of-Design/Day7/clock.html
 
-DAY8-
+DAY8-https://beardycancode.github.io/60-Days-of-Design/Day8/dropdown.html
