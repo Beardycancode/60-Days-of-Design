@@ -15,3 +15,7 @@ DAY7-https://beardycancode.github.io/60-Days-of-Design/Day7/clock.html
 DAY8-https://beardycancode.github.io/60-Days-of-Design/Day8/dropdown.html
 
 DAY9-https://beardycancode.github.io/60-Days-of-Design/Day9/Parallax/p1.html
+
+DAY10-https://beardycancode.github.io/60-Days-of-Design/Day10/magicmenu.html
+
+DAY11-https://beardycancode.github.io/60-Days-of-Design/Day11/textani.html
