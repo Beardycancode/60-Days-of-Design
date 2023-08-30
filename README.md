@@ -27,3 +27,5 @@ DAY13-https://beardycancode.github.io/60-Days-of-Design/Day13/todolist.html
 DAY14-https://beardycancode.github.io/60-Days-of-Design/Day14/menu.html
 
 DAY15-https://beardycancode.github.io/60-Days-of-Design/Day15/calculator.html
+
+DAY16-https://beardycancode.github.io/60-Days-of-Design/Day16/animatedlogin.html
