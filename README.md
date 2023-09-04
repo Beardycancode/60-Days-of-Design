@@ -33,3 +33,5 @@ DAY16-https://beardycancode.github.io/60-Days-of-Design/Day16/animatedlogin.html
 DAY17-https://beardycancode.github.io/60-Days-of-Design/Day17/penguin.html
 
 DAY18-https://beardycancode.github.io/60-Days-of-Design/Day18/Willow.html
+
+DAY19-https://beardycancode.github.io/60-Days-of-Design/Day19/scrollnav.html
