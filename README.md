@@ -37,3 +37,5 @@ DAY18-https://beardycancode.github.io/60-Days-of-Design/Day18/Willow.html
 DAY19-https://beardycancode.github.io/60-Days-of-Design/Day19/scrollnav.html
 
 DAY20- https://beardycancode.github.io/60-Days-of-Design/Day20/searchengine.html
+
+DAY21- https://beardycancode.github.io/60-Days-of-Design/Day21/reveal.html
