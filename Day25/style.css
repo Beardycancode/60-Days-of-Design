@@ -38,16 +38,12 @@ body{
     width: 100%;
     object-fit: cover;
     user-select: none;
-    transition: 0.5s;
-}
-.box span img:hover{
-    scale: 1.2;
-    position: absolute;
 }
 .btns{
     position: absolute;
     bottom: 100px;
     display: flex;
+    margin-left: 25px;
     gap: 30px;
 }
 .btns .btn{
