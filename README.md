@@ -49,3 +49,5 @@ DAY23-https://beardycancode.github.io/60-Days-of-Design/Day23/accordian.html
 DAY24-https://beardycancode.github.io/60-Days-of-Design/Day24/hover.html
 
 DAY25-https://beardycancode.github.io/60-Days-of-Design/Day25/3d-gallery.html
+
+DAY26-https://beardycancode.github.io/60-Days-of-Design/Day26/socialicons.html
