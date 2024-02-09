@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: #222;
+}
+.container input{
+    appearance: none;
+}
+.container .dots{
+    position: absolute;
+    bottom: 70px;
+    z-index: 100000;
+    display: flex;
+    gap: 10px;
+    
+}
+.container .dots label{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.5;
+    border: 2px solid #222;
+}
+.container input:nth-child(1):checked ~ .dots label:nth-child(1),
+.container input:nth-child(2):checked ~ .dots label:nth-child(2),
+.container input:nth-child(3):checked ~ .dots label:nth-child(3),
+.container input:nth-child(4):checked ~ .dots label:nth-child(4),
+.container input:nth-child(5):checked ~ .dots label:nth-child(5){
+    opacity: 1;
+}
+.container .slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container .slider .slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--img);
+    /* opacity: 0; */
+    background-size: cover;
+    clip-path: circle(0% at 0% 50%);
+    transition: 1.5s;
+    transition-delay: 0s;
+    background-position: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.container .slider .slide:nth-child(even){
+    clip-path: circle(0% at 100% 50%);
+    background-position: right;
+}
+.container input:nth-child(1):checked ~ .slider .slide:nth-child(1),
+.container input:nth-child(2):checked ~ .slider .slide:nth-child(2),
+.container input:nth-child(3):checked ~ .slider .slide:nth-child(3),
+.container input:nth-child(4):checked ~ .slider .slide:nth-child(4),
+.container input:nth-child(5):checked ~ .slider .slide:nth-child(5){
+    /* opacity: 1; */
+    clip-path: circle(150% at 50% 50%);
+    transition-delay: 1s;
+    background-position: center;
+}
+.content{
+    background-color: rgb(59, 181, 197);
+    /* filter: blur(2px); */
+    position: relative;
+    padding: 50px 50px 50px 80px;
+    margin: 30px;
+    box-shadow: 0 6px 12px rgba(212, 212, 212, 0.36), 0 -6px 18px rgba(0,0,0,.48), 0 -8px 24px rgba(0,0,0,.64);
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 15px 25px -5px;
+    max-width: 550px;
+    border-radius: 20px;
+}
+.content h2{
+    color: #000000;
+    font-size:3em;
+}
